@@ -1,7 +1,7 @@
 name: Build Tweaks (Helper)
 
 on:
-  workflow_dispatch:
+  workflow_call:
     inputs:
       enable_youpip:
         type: boolean
